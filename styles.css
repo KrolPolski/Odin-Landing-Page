@@ -1,20 +1,30 @@
+.banner {
+    background-color: #3882F6;
+    border-radius: 7px;
+    display: flex;  
+    padding: 20px;
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.call2action {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
 }
-.header,.headline, .footer {background-color: #1F2937;
-display:flex;
-}
-
-.header {
-    flex: 1;
-}
-
-.right-links a {
-    text-decoration: none;
-    }
 
 .footer {
     color: #E5E7EB;
@@ -25,35 +35,63 @@ display:flex;
 
 }
 
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    margin-right: auto;
-}
-
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    font-family: Arial, sans-serif;
+    margin: 0px;
 }
 h2 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
 }
+
+.header,.headline, .footer {background-color: #1F2937;
+display:flex;
+}
+
+.header {
+    
+    flex: 1;
+    justify-content: space-between;
+    padding: 8px 60px;
+    align-items: center;
+}
+
+
+.headline {
+    padding: 8px 60px;
+    justify-content: space-between;
+    flex: 1;
+    gap: 24px;
+}
+
 .headline p {
     color:#E5E7EB;
     font-size: 18px;
     flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.randominfo {
-    flex: 1;
-}
-.call2action {
+
+
+.left-headline {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     flex: 1;
-    justify-content: center;
-    align-items: center;
+    margin: 36px 0px;
+}
+
+.left-headline button {
+    width: 120px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    
 }
 
 .quote {
@@ -66,16 +104,27 @@ h2 {
     padding: 30px;
 }
 
-button {
-    background-color: #3882F6;
-    border-radius: 7px;
-    color: #E5E7EB;
+.randominfo {
+    flex: 1;
 }
 
-.banner {
-    background-color: #3882F6;
-    border-radius: 7px;
-    display: flex;  
-    padding: 20px;
-    color: #E5E7EB;
+.right-headline {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    vertical-align: center;
+    margin: 36px 0px;
 }
+.right-links a {
+    display: flex;
+    text-decoration: none;
+    color: #E5E7EB;
+    justify-content: space-between;   
+    }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
