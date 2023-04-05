@@ -91,7 +91,7 @@ display:flex;
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    
+    padding: 8px 0px;
 }
 
 .quote {
@@ -105,7 +105,11 @@ display:flex;
 }
 
 .randominfo {
+    display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .right-headline {
